@@ -9,14 +9,11 @@ namespace Shapes.Models
         Face = side;
     }
 
-
     public int GetVolume()
     {
         int length = Face.Length;
         return length * length * length;
     }
-
-
 
     public int GetSurfaceArea()
     {

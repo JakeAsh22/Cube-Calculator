@@ -19,7 +19,6 @@ namespace Shapes.Tests
       Assert.AreEqual(result, 64);
     }
 
-
     [TestMethod]
     public void Cube_GetSurfaceArea_SurfaceAreaOfCube()
     {

@@ -12,15 +12,10 @@ namespace Shapes.Models
     }
 
 
-
-
     public int GetArea()
     {
       return Length * Width;
     }
-
-
-    
 
     public bool IsSquare()
     {
