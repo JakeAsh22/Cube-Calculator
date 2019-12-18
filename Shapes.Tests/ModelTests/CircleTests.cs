@@ -25,8 +25,5 @@ namespace Shapes.Tests
         double result = test2.GetCircumference();
         Assert.AreEqual(result, 12.566370614359172);
     }
-
-
-
   }  
 }

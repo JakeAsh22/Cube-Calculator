@@ -11,7 +11,6 @@ namespace Shapes.Models
       Width = sideWidth;
     }
 
-
     public int GetArea()
     {
       return Length * Width;

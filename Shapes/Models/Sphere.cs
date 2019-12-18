@@ -18,7 +18,6 @@ namespace Shapes.Models
             return Math.PI * radiusCubed * fraction;
         }
 
-
         public double GetSurfaceArea()
         {
             double radiusSquared = Math.Pow(Surface.Radius, 2);

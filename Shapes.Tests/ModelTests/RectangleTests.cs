@@ -7,8 +7,6 @@ namespace Shapes.Tests
   public class RectangleTests
   {
 
-
-
     [TestMethod]
     public void Rectangle_GetArea_AreaOfRectangle()
     {
@@ -19,9 +17,6 @@ namespace Shapes.Tests
       // Assert
       Assert.AreEqual(result, 16);
     }
-
-
-
 
     [TestMethod]
     public void Rectangle_IsSquare_True()
@@ -34,9 +29,6 @@ namespace Shapes.Tests
       Assert.AreEqual(result, true);
     }
 
-
-    
-
     [TestMethod]
     public void Rectangle_IsSquare_False()
     {
@@ -47,6 +39,5 @@ namespace Shapes.Tests
       // Assert
       Assert.AreEqual(result, false);
     }
-
   }
 }
